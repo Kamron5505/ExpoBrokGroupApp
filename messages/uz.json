@@ -1,0 +1,216 @@
+{
+  "meta": {
+    "title": "ExpoBrokGroup — Coca-Cola mahsulotlarini xalqaro eksport qilish",
+    "description": "O'zbekistondan MDH davlatlariga Coca-Cola mahsulotlarini xalqaro eksport qilish. Ulgurji yetkazib berish, hujjatlar va logistika — kalit topshirish asosida.",
+    "keywords": "Coca-Cola eksport, ichimlik yetkazib berish, O'zbekistondan eksport, MDH, ulgurji yetkazib berish, ExpoBrokGroup"
+  },
+  "nav": {
+    "about": "Kompaniya",
+    "why": "Afzalliklar",
+    "products": "Mahsulotlar",
+    "geography": "Geografiya",
+    "process": "Jarayon",
+    "certificates": "Sertifikatlar",
+    "contact": "Aloqa",
+    "cta": "Hamkor bo'lish"
+  },
+  "hero": {
+    "badge": "O'zbekistondan rasmiy eksportyor",
+    "title": "Butun MDH bozori uchun Coca-Cola mahsulotlari",
+    "subtitle": "O'zbekistondan MDH davlatlariga original Coca-Cola mahsulotlari. Hujjatlar, logistika va sifat — kalit topshirish asosida.",
+    "ctaPrimary": "Hamkor bo'lish",
+    "ctaSecondary": "Mahsulotlarni ko'rish",
+    "stats": {
+      "countries": "Eksport davlatlari",
+      "years": "Bozordagi yillar",
+      "volume": "Yiliga tonna",
+      "partners": "Hamkorlar"
+    }
+  },
+  "about": {
+    "eyebrow": "Kompaniya haqida",
+    "title": "O'zbekistondan jahon darajasidagi eksport",
+    "lead": "O'zbekistondan MDH bozorlariga original Coca-Cola mahsulotlarini yetkazib beramiz.",
+    "body": "O'zbekistondagi ishlab chiqarish va mintaqa distribyutorlari o'rtasida to'g'ridan-to'g'ri kanallar quramiz va to'liq tsiklni — eksport hujjatlaridan yukni yetkazishgacha — o'z zimmamizga olamiz.",
+    "missionTitle": "Bizning missiyamiz",
+    "mission": "Barcha MDH davlatlaridagi hamkorlar ishonadigan benuqson yetkazib berish.",
+    "visionTitle": "Bizning ko'zqarashimiz",
+    "vision": "O'zbekiston va Yevrosiyo bozorlari o'rtasidagi yetakchi eksport ko'prigi bo'lish.",
+    "points": {
+      "one": "To'g'ridan-to'g'ri shartnomalar va shaffof narxlar",
+      "two": "To'liq eksport va bojxona hujjatlari",
+      "three": "Muddat va sifat standartlari"
+    }
+  },
+  "why": {
+    "eyebrow": "Nega biz",
+    "title": "Hamkorlar nega bizni tanlaydi",
+    "subtitle": "Xalqaro logistika ko'lami va shartnomaning har bir tafsilotiga e'tibor.",
+    "items": {
+      "quality": {
+        "title": "Sifat kafolati",
+        "desc": "Faqat original mahsulotlar — saqlash va tashishda to'liq nazorat ostida."
+      },
+      "logistics": {
+        "title": "Kalit topshiriladigan logistika",
+        "desc": "Istalgan transportda, har bosqichda kuzatuv bilan."
+      },
+      "docs": {
+        "title": "To'liq hujjatlar",
+        "desc": "Eksport, bojxona va sertifikatlash hujjatlari — bizning zimmamizda."
+      },
+      "speed": {
+        "title": "Tez yetkazib berish",
+        "desc": "Buyurtmalarni eng qisqa muddatda jo'natamiz."
+      },
+      "geography": {
+        "title": "Keng geografiya",
+        "desc": "Barcha asosiy MDH bozorlari — va doim kengaymoqdamiz."
+      },
+      "support": {
+        "title": "Shaxsiy menejer",
+        "desc": "Sizning mutaxassisingiz 24/7 aloqada."
+      }
+    }
+  },
+  "stats": {
+    "eyebrow": "Raqamlarda",
+    "title": "Ishonish mumkin bo'lgan ko'lam",
+    "items": {
+      "countries": "Eksport davlatlari",
+      "volume": "Yiliga tonna mahsulot",
+      "partners": "Faol hamkorlar",
+      "ontime": "O'z vaqtida yetkazib berish"
+    }
+  },
+  "products": {
+    "eyebrow": "Mahsulotlar",
+    "title": "Eksport uchun to'liq ichimliklar portfeli",
+    "subtitle": "Turli qadoqlash formatlaridagi original brendlar — har qanday bozor uchun.",
+    "packaging": "Qadoqlash",
+    "availability": "Eksport uchun mavjud",
+    "cta": "Narxlar ro'yxatini so'rash",
+    "items": {
+      "coca-cola": { "name": "Coca-Cola", "desc": "Butun dunyoga tanish klassik ta'm." },
+      "coca-cola-zero": { "name": "Coca-Cola Zero", "desc": "Shakarsiz haqiqiy ta'm." },
+      "fanta": { "name": "Fanta", "desc": "Yorqin mevali ta'm." },
+      "sprite": { "name": "Sprite", "desc": "Tetiklashtiruvchi limon-laym." },
+      "schweppes": { "name": "Schweppes", "desc": "Premium tonik ichimliklar." },
+      "fuse-tea": { "name": "Fuse Tea", "desc": "Tabiiy ekstraktli sovuq choy." },
+      "rich": { "name": "Rich", "desc": "Premium sharbat va nektarlar." },
+      "bonaqua": { "name": "Bonaqua", "desc": "Toza suv, gazli va gazsiz." },
+      "pulpy": { "name": "Pulpy", "desc": "Meva bo'laklari bilan sharbatli ichimlik." }
+    }
+  },
+  "geography": {
+    "eyebrow": "Eksport geografiyasi",
+    "title": "Butun MDH mintaqasi bo'ylab yetkazib berish",
+    "subtitle": "Marshrutlarimiz O'zbekistondagi ishlab chiqarishni Yevrosiyo distribyutorlari bilan bog'laydi.",
+    "countriesLabel": "Eksport davlatlari",
+    "hub": "O'zbekiston",
+    "hubLabel": "Eksport markazi",
+    "countries": {
+      "kz": "Qozog'iston",
+      "ru": "Rossiya",
+      "by": "Belarus",
+      "kg": "Qirg'iziston",
+      "tj": "Tojikiston",
+      "az": "Ozarbayjon"
+    },
+    "more": "va boshqa davlatlar"
+  },
+  "process": {
+    "eyebrow": "Qanday ishlaymiz",
+    "title": "Arizadan yetkazib berishgacha shaffof jarayon",
+    "subtitle": "Har bir bosqich nazorat ostida — buyurtmangiz qayerdaligini bilasiz.",
+    "steps": {
+      "one": { "title": "Ariza va maslahat", "desc": "Hajm va assortimentni muhokama qilib, taklif tayyorlaymiz." },
+      "two": { "title": "Shartnoma va hujjatlar", "desc": "Shartnoma tuzamiz va eksport hujjatlarini rasmiylashtramiz." },
+      "three": { "title": "Buyurtmani yig'ish", "desc": "Partiyani omborda yig'amiz va tekshiramiz." },
+      "four": { "title": "Logistika va bojxona", "desc": "Manzil davlatida tashish va bojxonani tashkil qilamiz." },
+      "five": { "title": "Hamkorga yetkazish", "desc": "O'z vaqtida yetkazamiz va qabul qilinguncha kuzatamiz." }
+    }
+  },
+  "gallery": {
+    "eyebrow": "Galereya",
+    "title": "Ishlab chiqarish, ombor va logistika",
+    "subtitle": "Yetkazib berishlarimiz ichkaridan."
+  },
+  "certificates": {
+    "eyebrow": "Hujjatlar",
+    "title": "Sertifikatlar va ruxsatnomalar",
+    "subtitle": "Har bir mahsulot to'liq sifat va muvofiqlik sertifikatlari bilan.",
+    "download": "PDF yuklab olish",
+    "view": "Ochish"
+  },
+  "testimonials": {
+    "eyebrow": "Fikrlar",
+    "title": "Hamkorlar biz haqimizda",
+    "subtitle": "Mintaqadagi distribyutorlar bizga ishonadi.",
+    "items": {
+      "one": { "quote": "Shaffof shartlar va barqaror yetkazib berish. Ikki yilda birorta muddat buzilmadi.", "author": "Almaz J.", "role": "Distribyutor, Qozog'iston" },
+      "two": { "quote": "Hujjatlar va bojxonani to'liq o'z zimmalariga olishdi. Ishlash osonlashdi.", "author": "Dmitriy K.", "role": "Ulgurji tarmoq, Rossiya" },
+      "three": { "quote": "Original mahsulotlar va doim aloqadagi menejer. Tavsiya qilaman.", "author": "Nurlan B.", "role": "Importyor, Qirg'iziston" }
+    }
+  },
+  "faq": {
+    "eyebrow": "Savollar",
+    "title": "Ko'p beriladigan savollar",
+    "subtitle": "Javob topmadingizmi? Bizga yozing — ish kuni davomida javob beramiz.",
+    "items": {
+      "one": { "q": "Qaysi davlatlarga eksport qilasiz?", "a": "Barcha asosiy MDH davlatlari: Qozog'iston, Rossiya, Belarus, Qirg'iziston, Tojikiston, Ozarbayjon va mintaqaning boshqa bozorlari." },
+      "two": { "q": "Minimal buyurtma hajmi qancha?", "a": "Individual kelishiladi — assortiment va manzilga qarab. Hisob-kitob uchun bog'laning." },
+      "three": { "q": "Eksport hujjatlarini rasmiylashtirasizmi?", "a": "Ha, to'liq eksport, bojxona va sertifikatlash hujjatlarini o'z zimmamizga olamiz." },
+      "four": { "q": "Logistika qanday tashkil etilgan?", "a": "Manzil davlatida kuzatuv va bojxona bilan istalgan transportda tashish." },
+      "five": { "q": "Qanday hamkor bo'lish mumkin?", "a": "Saytda ariza qoldiring yoki Telegram/WhatsApp orqali yozing — menejer bog'lanib, taklif tayyorlaydi." }
+    }
+  },
+  "contact": {
+    "eyebrow": "Aloqa",
+    "title": "Buyurtmangizni muhokama qilamiz",
+    "subtitle": "Ariza qoldiring — individual taklif tayyorlaymiz.",
+    "phone": "Telefon",
+    "email": "Elektron pochta",
+    "address": "Manzil",
+    "addressValue": "Toshkent shahri, O'zbekiston",
+    "hours": "Ish vaqti",
+    "hoursValue": "Dush–Shan, 9:00–18:00",
+    "form": {
+      "name": "Ism",
+      "namePlaceholder": "Sizga qanday murojaat qilaylik",
+      "company": "Kompaniya",
+      "companyPlaceholder": "Kompaniya nomi",
+      "phone": "Telefon",
+      "phonePlaceholder": "+998 __ ___ __ __",
+      "email": "Elektron pochta",
+      "emailPlaceholder": "you@company.com",
+      "message": "Xabar",
+      "messagePlaceholder": "Hajm va assortiment haqida gapiring",
+      "submit": "Ariza yuborish",
+      "submitting": "Yuborilmoqda…",
+      "success": "Rahmat! Arizangizni qabul qildik va tez orada bog'lanamiz.",
+      "error": "Nimadir noto'g'ri ketdi. Qayta urinib ko'ring yoki messenjer orqali yozing.",
+      "errors": {
+        "name": "Iltimos, ismingizni kiriting",
+        "phone": "To'g'ri telefon raqamini kiriting",
+        "email": "To'g'ri email kiriting"
+      }
+    }
+  },
+  "footer": {
+    "tagline": "O'zbekistondan MDH davlatlariga Coca-Cola mahsulotlarini xalqaro eksport qilish.",
+    "nav": "Navigatsiya",
+    "contactTitle": "Aloqa",
+    "social": "Biz bilan aloqada",
+    "rights": "Barcha huquqlar himoyalangan.",
+    "disclaimer": "Coca-Cola va tegishli savdo belgilari The Coca-Cola Company kompaniyasiga tegishli. ExpoBrokGroup — uning mahsulotlarining mustaqil eksportyori."
+  },
+  "theme": {
+    "toggle": "Mavzuni almashtirish",
+    "light": "Yorug'",
+    "dark": "Qorong'i"
+  },
+  "common": {
+    "language": "Til"
+  }
+}

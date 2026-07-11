@@ -1,0 +1,216 @@
+{
+  "meta": {
+    "title": "ExpoBrokGroup — International Coca-Cola Product Export",
+    "description": "International exporter of Coca-Cola products from Uzbekistan to the CIS. Wholesale supply, documents and logistics handled end to end.",
+    "keywords": "Coca-Cola export, beverage supply, export from Uzbekistan, CIS, wholesale supply, ExpoBrokGroup"
+  },
+  "nav": {
+    "about": "About",
+    "why": "Why us",
+    "products": "Products",
+    "geography": "Geography",
+    "process": "Process",
+    "certificates": "Certificates",
+    "contact": "Contact",
+    "cta": "Become a partner"
+  },
+  "hero": {
+    "badge": "Official exporter from Uzbekistan",
+    "title": "Coca-Cola products for the entire CIS market",
+    "subtitle": "Authentic Coca-Cola products from Uzbekistan across the CIS. Documents, logistics and quality — handled end to end.",
+    "ctaPrimary": "Become a partner",
+    "ctaSecondary": "View products",
+    "stats": {
+      "countries": "Export countries",
+      "years": "Years on the market",
+      "volume": "Tonnes per year",
+      "partners": "Partners"
+    }
+  },
+  "about": {
+    "eyebrow": "About us",
+    "title": "World-class export from Uzbekistan",
+    "lead": "We supply authentic Coca-Cola products from Uzbekistan to CIS markets.",
+    "body": "We build direct channels between production in Uzbekistan and distributors across the region, and handle the full cycle — from export paperwork to delivering the cargo.",
+    "missionTitle": "Our mission",
+    "mission": "Flawless supply that partners across every CIS country can rely on.",
+    "visionTitle": "Our vision",
+    "vision": "To be the leading export bridge between Uzbekistan and the markets of Eurasia.",
+    "points": {
+      "one": "Direct contracts and transparent pricing",
+      "two": "Full export and customs documentation",
+      "three": "On-time delivery and quality standards"
+    }
+  },
+  "why": {
+    "eyebrow": "Why us",
+    "title": "Why partners choose us",
+    "subtitle": "The scale of international logistics with attention to every detail of the contract.",
+    "items": {
+      "quality": {
+        "title": "Quality guarantee",
+        "desc": "Only authentic products, fully controlled in storage and transport."
+      },
+      "logistics": {
+        "title": "End-to-end logistics",
+        "desc": "Transport by any means, tracked at every stage."
+      },
+      "docs": {
+        "title": "Full documentation",
+        "desc": "Export, customs and certification paperwork — on us."
+      },
+      "speed": {
+        "title": "Fast supply",
+        "desc": "We ship orders in the shortest possible time."
+      },
+      "geography": {
+        "title": "Wide geography",
+        "desc": "All key CIS markets — and always expanding."
+      },
+      "support": {
+        "title": "Dedicated manager",
+        "desc": "Your specialist, available around the clock."
+      }
+    }
+  },
+  "stats": {
+    "eyebrow": "By the numbers",
+    "title": "Scale you can trust",
+    "items": {
+      "countries": "Export countries",
+      "volume": "Tonnes of product per year",
+      "partners": "Active partners",
+      "ontime": "On-time deliveries"
+    }
+  },
+  "products": {
+    "eyebrow": "Products",
+    "title": "A complete beverage portfolio for export",
+    "subtitle": "Authentic brands in a range of packaging formats — for any market.",
+    "packaging": "Packaging",
+    "availability": "Available for export",
+    "cta": "Request a price list",
+    "items": {
+      "coca-cola": { "name": "Coca-Cola", "desc": "The classic taste, known worldwide." },
+      "coca-cola-zero": { "name": "Coca-Cola Zero", "desc": "Real taste, zero sugar." },
+      "fanta": { "name": "Fanta", "desc": "Bright fruity flavour." },
+      "sprite": { "name": "Sprite", "desc": "Refreshing lemon-lime." },
+      "schweppes": { "name": "Schweppes", "desc": "Premium tonics and mixers." },
+      "fuse-tea": { "name": "Fuse Tea", "desc": "Iced tea with natural extracts." },
+      "rich": { "name": "Rich", "desc": "Premium juices and nectars." },
+      "bonaqua": { "name": "Bonaqua", "desc": "Pure water, sparkling and still." },
+      "pulpy": { "name": "Pulpy", "desc": "A juice drink with real fruit pieces." }
+    }
+  },
+  "geography": {
+    "eyebrow": "Export geography",
+    "title": "Supply across the entire CIS region",
+    "subtitle": "Our routes connect production in Uzbekistan with distributors throughout Eurasia.",
+    "countriesLabel": "Export countries",
+    "hub": "Uzbekistan",
+    "hubLabel": "Export hub",
+    "countries": {
+      "kz": "Kazakhstan",
+      "ru": "Russia",
+      "by": "Belarus",
+      "kg": "Kyrgyzstan",
+      "tj": "Tajikistan",
+      "az": "Azerbaijan"
+    },
+    "more": "and other countries"
+  },
+  "process": {
+    "eyebrow": "How we work",
+    "title": "A transparent process from enquiry to delivery",
+    "subtitle": "Every stage under control — you always know where your order is.",
+    "steps": {
+      "one": { "title": "Enquiry & consultation", "desc": "We discuss volumes and range, then prepare an offer." },
+      "two": { "title": "Contract & documents", "desc": "We sign the contract and prepare export documents." },
+      "three": { "title": "Order assembly", "desc": "We assemble and inspect the batch at the warehouse." },
+      "four": { "title": "Logistics & customs", "desc": "We arrange transport and customs in the destination country." },
+      "five": { "title": "Delivery to partner", "desc": "We deliver on time and support until received." }
+    }
+  },
+  "gallery": {
+    "eyebrow": "Gallery",
+    "title": "Production, warehouse and logistics",
+    "subtitle": "Our supply operations from the inside."
+  },
+  "certificates": {
+    "eyebrow": "Documents",
+    "title": "Certificates and permits",
+    "subtitle": "Every product comes with a full package of quality and conformity certificates.",
+    "download": "Download PDF",
+    "view": "Open"
+  },
+  "testimonials": {
+    "eyebrow": "Testimonials",
+    "title": "What partners say about us",
+    "subtitle": "Distributors across the region trust us.",
+    "items": {
+      "one": { "quote": "Transparent terms and stable supply. Two years, not a single missed deadline.", "author": "Almaz Zh.", "role": "Distributor, Kazakhstan" },
+      "two": { "quote": "They took over documents and customs entirely. Working together got easier.", "author": "Dmitry K.", "role": "Wholesale chain, Russia" },
+      "three": { "quote": "Authentic products and a manager who is always available. Highly recommend.", "author": "Nurlan B.", "role": "Importer, Kyrgyzstan" }
+    }
+  },
+  "faq": {
+    "eyebrow": "FAQ",
+    "title": "Frequently asked questions",
+    "subtitle": "Didn't find an answer? Write to us — we reply within one business day.",
+    "items": {
+      "one": { "q": "Which countries do you export to?", "a": "All key CIS countries: Kazakhstan, Russia, Belarus, Kyrgyzstan, Tajikistan, Azerbaijan and other markets in the region." },
+      "two": { "q": "What is the minimum order volume?", "a": "Agreed individually — based on range and destination. Contact us for a quote." },
+      "three": { "q": "Do you prepare export documents?", "a": "Yes, we handle the full package of export, customs and certification documents." },
+      "four": { "q": "How is logistics organised?", "a": "Transport by any means with tracking and customs in the destination country." },
+      "five": { "q": "How do I become your partner?", "a": "Submit a request on the site or message us on Telegram/WhatsApp — a manager will get in touch and prepare an offer." }
+    }
+  },
+  "contact": {
+    "eyebrow": "Contact",
+    "title": "Let's discuss your order",
+    "subtitle": "Leave a request — we'll prepare a tailored offer.",
+    "phone": "Phone",
+    "email": "Email",
+    "address": "Address",
+    "addressValue": "Tashkent, Uzbekistan",
+    "hours": "Working hours",
+    "hoursValue": "Mon–Sat, 9:00–18:00",
+    "form": {
+      "name": "Name",
+      "namePlaceholder": "How should we address you",
+      "company": "Company",
+      "companyPlaceholder": "Company name",
+      "phone": "Phone",
+      "phonePlaceholder": "+998 __ ___ __ __",
+      "email": "Email",
+      "emailPlaceholder": "you@company.com",
+      "message": "Message",
+      "messagePlaceholder": "Tell us about volumes and product range",
+      "submit": "Send request",
+      "submitting": "Sending…",
+      "success": "Thank you! We received your request and will contact you shortly.",
+      "error": "Something went wrong. Please try again or message us on a messenger.",
+      "errors": {
+        "name": "Please tell us your name",
+        "phone": "Enter a valid phone number",
+        "email": "Enter a valid email"
+      }
+    }
+  },
+  "footer": {
+    "tagline": "International export of Coca-Cola products from Uzbekistan to the CIS.",
+    "nav": "Navigation",
+    "contactTitle": "Contact",
+    "social": "Stay in touch",
+    "rights": "All rights reserved.",
+    "disclaimer": "Coca-Cola and related trademarks are property of The Coca-Cola Company. ExpoBrokGroup is an independent exporter of its products."
+  },
+  "theme": {
+    "toggle": "Switch theme",
+    "light": "Light",
+    "dark": "Dark"
+  },
+  "common": {
+    "language": "Language"
+  }
+}
