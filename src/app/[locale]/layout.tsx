@@ -5,6 +5,7 @@ import { getMessages, getTranslations, setRequestLocale } from 'next-intl/server
 import { notFound } from 'next/navigation';
 import { routing } from '@/i18n/routing';
 import { ThemeProvider } from '@/components/providers/theme-provider';
+import { JsonLd } from '@/components/seo/json-ld';
 import { site } from '@/lib/site';
 import '../globals.css';
 
@@ -57,7 +58,12 @@ export async function generateMetadata({
         ru: '/',
         uz: '/uz',
         en: '/en',
+        'x-default': '/',
       },
+    },
+    verification: {
+      google: process.env.GOOGLE_SITE_VERIFICATION,
+      yandex: process.env.YANDEX_VERIFICATION,
     },
     openGraph: {
       type: 'website',
@@ -89,6 +95,7 @@ export default async function LocaleLayout({
   }
   setRequestLocale(locale);
   const messages = await getMessages();
+  const t = await getTranslations({ locale, namespace: 'meta' });
 
   return (
     <html
@@ -96,6 +103,9 @@ export default async function LocaleLayout({
       suppressHydrationWarning
       className={`${inter.variable} ${montserrat.variable}`}
     >
+      <head>
+        <JsonLd locale={locale} description={t('description')} />
+      </head>
       <body className="min-h-screen surface antialiased">
         <ThemeProvider>
           <NextIntlClientProvider messages={messages}>{children}</NextIntlClientProvider>
