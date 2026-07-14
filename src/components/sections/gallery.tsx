@@ -1,6 +1,7 @@
 'use client';
 
 import { useState } from 'react';
+import Image, { type StaticImageData } from 'next/image';
 import { useTranslations } from 'next-intl';
 import { motion, AnimatePresence } from 'framer-motion';
 import { X, Warehouse, Factory, Ship, Boxes, Truck, ClipboardCheck } from 'lucide-react';
@@ -9,7 +10,15 @@ import { Container } from '@/components/ui/container';
 import { SectionHeading } from '@/components/ui/section-heading';
 import { cn } from '@/lib/utils';
 
-const tiles: { id: string; icon: LucideIcon; label: string; span: string }[] = [
+type Tile = {
+  id: string;
+  icon: LucideIcon;
+  label: string;
+  span: string;
+  photo?: StaticImageData;
+};
+
+const tiles: Tile[] = [
   { id: 'g1', icon: Factory, label: 'Production line', span: 'sm:col-span-2 sm:row-span-2' },
   { id: 'g2', icon: Warehouse, label: 'Warehouse', span: '' },
   { id: 'g3', icon: Boxes, label: 'Palletising', span: '' },
@@ -18,18 +27,44 @@ const tiles: { id: string; icon: LucideIcon; label: string; span: string }[] = [
   { id: 'g6', icon: ClipboardCheck, label: 'Quality control', span: '' },
 ];
 
-function Tile({ icon: Icon, label, dim }: { icon: LucideIcon; label: string; dim?: boolean }) {
+function Tile({ icon: Icon, label, photo, dim }: Omit<Tile, 'id' | 'span'> & { dim?: boolean }) {
   return (
     <div className="relative h-full w-full overflow-hidden">
       <div className="absolute inset-0 bg-gradient-to-br from-[rgb(var(--bg-subtle))] to-[rgb(var(--bg-elevated))]" />
-      <div
-        aria-hidden
-        className="absolute -right-8 -top-8 h-40 w-40 rounded-full bg-[rgb(var(--accent))] opacity-[0.10] blur-2xl"
-      />
-      <div aria-hidden className="absolute inset-0 grain opacity-30" />
+      {photo ? (
+        <>
+          <Image
+            src={photo}
+            alt={label}
+            fill
+            placeholder="blur"
+            sizes={dim ? '(max-width: 768px) 100vw, 50vw' : '(max-width: 768px) 50vw, 25vw'}
+            className="object-contain p-4"
+          />
+          <div
+            aria-hidden
+            className="absolute inset-x-0 bottom-0 h-1/2 bg-gradient-to-t from-black/55 to-transparent"
+          />
+        </>
+      ) : (
+        <>
+          <div
+            aria-hidden
+            className="absolute -right-8 -top-8 h-40 w-40 rounded-full bg-[rgb(var(--accent))] opacity-[0.10] blur-2xl"
+          />
+          <div aria-hidden className="absolute inset-0 grain opacity-30" />
+        </>
+      )}
       <div className={cn('absolute inset-0 flex flex-col justify-between p-5', dim && 'p-8')}>
-        <Icon className={cn('text-[rgb(var(--accent))]', dim ? 'h-10 w-10' : 'h-7 w-7')} />
-        <span className={cn('font-medium', dim ? 'text-xl' : 'text-sm')}>{label}</span>
+        <Icon
+          className={cn(
+            photo ? 'text-white drop-shadow' : 'text-[rgb(var(--accent))]',
+            dim ? 'h-10 w-10' : 'h-7 w-7',
+          )}
+        />
+        <span className={cn('font-medium', photo && 'text-white drop-shadow', dim ? 'text-xl' : 'text-sm')}>
+          {label}
+        </span>
       </div>
     </div>
   );
@@ -60,7 +95,12 @@ export function Gallery() {
               )}
             >
               <div className="h-full w-full transition-transform duration-700 ease-out-expo group-hover:scale-[1.04]">
-                <Tile icon={tile.icon} label={tile.label} dim={tile.span.includes('row-span-2')} />
+                <Tile
+                  icon={tile.icon}
+                  label={tile.label}
+                  photo={tile.photo}
+                  dim={tile.span.includes('row-span-2')}
+                />
               </div>
             </motion.button>
           ))}
@@ -84,7 +124,7 @@ export function Gallery() {
               onClick={(e) => e.stopPropagation()}
               className="relative aspect-[16/10] w-full max-w-3xl overflow-hidden rounded-3xl border border-white/10"
             >
-              <Tile icon={active.icon} label={active.label} dim />
+              <Tile icon={active.icon} label={active.label} photo={active.photo} dim />
               <button
                 type="button"
                 onClick={() => setActive(null)}

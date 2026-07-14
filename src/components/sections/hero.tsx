@@ -1,12 +1,13 @@
 'use client';
 
+import Image from 'next/image';
 import { useTranslations } from 'next-intl';
 import { motion, useReducedMotion } from 'framer-motion';
 import { ArrowRight, ShieldCheck } from 'lucide-react';
 import { Container } from '@/components/ui/container';
 import { Button } from '@/components/ui/button';
 import { Counter } from '@/components/ui/counter';
-import { Bottle } from '@/components/ui/bottle';
+import heroImage from '@/images/hero.png';
 
 const stats = [
   { value: 6, suffix: '+', key: 'countries' },
@@ -14,12 +15,6 @@ const stats = [
   { value: 12000, suffix: '+', key: 'volume' },
   { value: 120, suffix: '+', key: 'partners' },
 ] as const;
-
-const bottles = [
-  { tint: '#DA291C', label: 'coke' },
-  { tint: '#0E8A3E', label: 'sprite' },
-  { tint: '#F2691B', label: 'fanta' },
-];
 
 export function Hero() {
   const t = useTranslations('hero');
@@ -124,20 +119,25 @@ export function Hero() {
               transition={{ duration: 0.9, delay: 0.2, ease: [0.16, 1, 0.3, 1] }}
               className="relative aspect-[4/5] w-full"
             >
-              <div className="absolute inset-0 rounded-[2.5rem] border border-[rgb(var(--border))] surface-subtle" />
-              <div className="absolute inset-x-8 bottom-0 top-8 flex items-end justify-center gap-3 sm:gap-5">
-                {bottles.map((b, i) => (
-                  <motion.div
-                    key={b.label}
-                    animate={reduce ? undefined : { y: [0, -10, 0] }}
-                    transition={{ duration: 4 + i, repeat: Infinity, ease: 'easeInOut', delay: i * 0.3 }}
-                    className="h-[75%] w-1/3 drop-shadow-[0_20px_30px_rgba(0,0,0,0.18)]"
-                    style={{ height: `${72 + (i === 1 ? 22 : 0)}%` }}
-                  >
-                    <Bottle tint={b.tint} label={b.label} />
-                  </motion.div>
-                ))}
-              </div>
+              <motion.div
+                animate={reduce ? undefined : { y: [0, -8, 0] }}
+                transition={{ duration: 7, repeat: Infinity, ease: 'easeInOut' }}
+                className="absolute inset-0 overflow-hidden rounded-[2.5rem] border border-[rgb(var(--border))] surface-subtle shadow-lift"
+              >
+                <Image
+                  src={heroImage}
+                  alt={t('imageAlt')}
+                  fill
+                  priority
+                  placeholder="blur"
+                  sizes="(max-width: 1024px) 90vw, 45vw"
+                  className="object-cover"
+                />
+                <div
+                  aria-hidden
+                  className="absolute inset-x-0 bottom-0 h-1/3 bg-gradient-to-t from-black/45 to-transparent"
+                />
+              </motion.div>
 
               {/* floating trust card */}
               <motion.div

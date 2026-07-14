@@ -1,5 +1,6 @@
 'use client';
 
+import Image from 'next/image';
 import { useTranslations } from 'next-intl';
 import { Check, ArrowUpRight } from 'lucide-react';
 import { Container } from '@/components/ui/container';
@@ -31,15 +32,35 @@ export function Products() {
           {products.map((p) => (
             <StaggerItem key={p.key}>
               <article className="group relative flex h-full flex-col overflow-hidden rounded-3xl border border-[rgb(var(--border))] surface-elevated transition-all duration-500 ease-out-expo hover:-translate-y-1 hover:shadow-lift">
-                <div className="relative flex h-52 items-end justify-center overflow-hidden">
+                <div
+                  className="relative flex h-52 items-end justify-center overflow-hidden"
+                  style={{
+                    // opaque base: the pack shots use multiply, so nothing dark may show through
+                    backgroundColor: '#f7f7f8',
+                    backgroundImage: `radial-gradient(62% 55% at 50% 40%, ${p.tint}30, transparent 70%), linear-gradient(180deg, #ffffff 0%, ${p.tint}1c 100%)`,
+                  }}
+                >
+                  {/* soft podium the bottle stands on */}
                   <div
                     aria-hidden
-                    className="absolute inset-0 opacity-[0.10] transition-opacity duration-500 group-hover:opacity-20"
-                    style={{ background: `radial-gradient(60% 60% at 50% 20%, ${p.tint}, transparent)` }}
+                    className="absolute bottom-5 left-1/2 h-5 w-28 -translate-x-1/2 rounded-[50%] opacity-40 blur-md transition-all duration-500 group-hover:w-32 group-hover:opacity-60"
+                    style={{ backgroundColor: p.tint }}
                   />
-                  <div className="relative h-44 w-24 transition-transform duration-500 ease-out-expo group-hover:-translate-y-1 group-hover:scale-105">
-                    <Bottle tint={p.tint} label={p.key} />
-                  </div>
+
+                  {p.image ? (
+                    <Image
+                      src={p.image}
+                      alt={t(`items.${p.key}.name`)}
+                      fill
+                      placeholder="blur"
+                      sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 33vw"
+                      className="object-contain p-5 mix-blend-multiply transition-transform duration-500 ease-out-expo group-hover:-translate-y-1 group-hover:scale-105"
+                    />
+                  ) : (
+                    <div className="relative h-44 w-24 transition-transform duration-500 ease-out-expo group-hover:-translate-y-1 group-hover:scale-105">
+                      <Bottle tint={p.tint} label={p.key} />
+                    </div>
+                  )}
                 </div>
 
                 <div className="flex flex-1 flex-col border-t border-[rgb(var(--border))] p-6">

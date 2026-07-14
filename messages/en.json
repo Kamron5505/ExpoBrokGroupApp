@@ -16,6 +16,7 @@
   },
   "hero": {
     "badge": "Official exporter from Uzbekistan",
+    "imageAlt": "Coca-Cola, Fanta, Sprite, Pepsi and Flavis bottles and cans lined up",
     "title": "Coca-Cola products for the entire CIS market",
     "subtitle": "Authentic Coca-Cola products from Uzbekistan across the CIS. Documents, logistics and quality — handled end to end.",
     "ctaPrimary": "Become a partner",
@@ -95,11 +96,8 @@
       "coca-cola-zero": { "name": "Coca-Cola Zero", "desc": "Real taste, zero sugar." },
       "fanta": { "name": "Fanta", "desc": "Bright fruity flavour." },
       "sprite": { "name": "Sprite", "desc": "Refreshing lemon-lime." },
-      "schweppes": { "name": "Schweppes", "desc": "Premium tonics and mixers." },
-      "fuse-tea": { "name": "Fuse Tea", "desc": "Iced tea with natural extracts." },
-      "rich": { "name": "Rich", "desc": "Premium juices and nectars." },
-      "bonaqua": { "name": "Bonaqua", "desc": "Pure water, sparkling and still." },
-      "pulpy": { "name": "Pulpy", "desc": "A juice drink with real fruit pieces." }
+      "flavis": { "name": "Flavis", "desc": "Sparkling drink with mojito and strawberry flavour." },
+      "bfresh": { "name": "B Fresh", "desc": "Canned juice lemonade: lime, lemon and mint." }
     }
   },
   "geography": {

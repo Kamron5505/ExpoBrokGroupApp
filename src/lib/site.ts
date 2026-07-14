@@ -1,3 +1,11 @@
+import type { StaticImageData } from 'next/image';
+import colaImage from '@/images/cola.png';
+import colaZeroImage from '@/images/cola-zero.png';
+import fantaImage from '@/images/fanta.png';
+import spriteImage from '@/images/sprite.png';
+import flavisImage from '@/images/flavis.png';
+import bfreshImage from '@/images/bfresh.png';
+
 export const site = {
   name: 'ExpoBrokGroup',
   domain: 'expobrokgroup.com',
@@ -25,29 +33,25 @@ export type ProductKey =
   | 'coca-cola-zero'
   | 'fanta'
   | 'sprite'
-  | 'schweppes'
-  | 'fuse-tea'
-  | 'rich'
-  | 'bonaqua'
-  | 'pulpy';
+  | 'flavis'
+  | 'bfresh';
 
 export interface Product {
   key: ProductKey;
-  /** Brand tint used for the card's abstract product visual. */
+  /** Brand tint used for the card's backdrop glow. */
   tint: string;
   packaging: string;
+  /** Pack shot; cards without one fall back to the abstract bottle visual. */
+  image?: StaticImageData;
 }
 
 export const products: Product[] = [
-  { key: 'coca-cola', tint: '#DA291C', packaging: '0.33 · 0.5 · 1 · 1.5 L' },
-  { key: 'coca-cola-zero', tint: '#1A1A1A', packaging: '0.33 · 0.5 · 1.5 L' },
-  { key: 'fanta', tint: '#F2691B', packaging: '0.5 · 1 · 1.5 L' },
-  { key: 'sprite', tint: '#0E8A3E', packaging: '0.5 · 1 · 1.5 L' },
-  { key: 'schweppes', tint: '#B8912F', packaging: '0.25 · 0.9 L' },
-  { key: 'fuse-tea', tint: '#C0392B', packaging: '0.5 · 1 · 1.5 L' },
-  { key: 'rich', tint: '#8E1B2E', packaging: '0.25 · 1 L' },
-  { key: 'bonaqua', tint: '#1E88C7', packaging: '0.5 · 1 · 1.5 L' },
-  { key: 'pulpy', tint: '#E8791C', packaging: '0.45 · 0.9 L' },
+  { key: 'coca-cola', tint: '#DA291C', packaging: '0.33 · 0.5 · 1 · 1.5 · 2 L', image: colaImage },
+  { key: 'coca-cola-zero', tint: '#1A1A1A', packaging: '0.33 · 0.5 · 1.5 L', image: colaZeroImage },
+  { key: 'fanta', tint: '#F2691B', packaging: '0.5 · 1 · 1.5 L', image: fantaImage },
+  { key: 'sprite', tint: '#0E8A3E', packaging: '0.5 · 1 · 1.5 L', image: spriteImage },
+  { key: 'flavis', tint: '#E5197B', packaging: '0.5 · 1 · 1.5 L', image: flavisImage },
+  { key: 'bfresh', tint: '#0F5D63', packaging: '0.45 L can', image: bfreshImage },
 ];
 
 export const geoCountries = [

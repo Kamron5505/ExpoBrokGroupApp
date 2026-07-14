@@ -16,6 +16,7 @@
   },
   "hero": {
     "badge": "O'zbekistondan rasmiy eksportyor",
+    "imageAlt": "Coca-Cola, Fanta, Sprite, Pepsi va Flavis shishalari va bankalari",
     "title": "Butun MDH bozori uchun Coca-Cola mahsulotlari",
     "subtitle": "O'zbekistondan MDH davlatlariga original Coca-Cola mahsulotlari. Hujjatlar, logistika va sifat — kalit topshirish asosida.",
     "ctaPrimary": "Hamkor bo'lish",
@@ -95,11 +96,8 @@
       "coca-cola-zero": { "name": "Coca-Cola Zero", "desc": "Shakarsiz haqiqiy ta'm." },
       "fanta": { "name": "Fanta", "desc": "Yorqin mevali ta'm." },
       "sprite": { "name": "Sprite", "desc": "Tetiklashtiruvchi limon-laym." },
-      "schweppes": { "name": "Schweppes", "desc": "Premium tonik ichimliklar." },
-      "fuse-tea": { "name": "Fuse Tea", "desc": "Tabiiy ekstraktli sovuq choy." },
-      "rich": { "name": "Rich", "desc": "Premium sharbat va nektarlar." },
-      "bonaqua": { "name": "Bonaqua", "desc": "Toza suv, gazli va gazsiz." },
-      "pulpy": { "name": "Pulpy", "desc": "Meva bo'laklari bilan sharbatli ichimlik." }
+      "flavis": { "name": "Flavis", "desc": "Mohito va qulupnay ta'mli gazlangan ichimlik." },
+      "bfresh": { "name": "B Fresh", "desc": "Bankadagi sharbatli limonad: laym, limon, yalpiz." }
     }
   },
   "geography": {
