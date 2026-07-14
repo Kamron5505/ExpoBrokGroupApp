@@ -11,10 +11,10 @@ export const site = {
   domain: 'expobrokgroup.uz',
   url: process.env.NEXT_PUBLIC_SITE_URL ?? 'https://expobrokgroup.uz',
   email: 'info@expobrokgroup.com',
-  phone: '+998 90 000 00 00',
-  phoneHref: '+998900000000',
-  telegram: 'https://t.me/expobrokgroup',
-  whatsapp: 'https://wa.me/998900000000',
+  phone: '+998 97 444 82 44',
+  phoneHref: '+998974448244',
+  telegram: 'https://t.me/+998974448244',
+  whatsapp: 'https://wa.me/998974448244',
   instagram: 'https://instagram.com/expobrokgroup',
 } as const;
 
