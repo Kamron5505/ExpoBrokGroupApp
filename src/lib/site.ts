@@ -8,8 +8,8 @@ import bfreshImage from '@/images/bfresh.png';
 
 export const site = {
   name: 'ExpoBrokGroup',
-  domain: 'expobrokgroup.com',
-  url: process.env.NEXT_PUBLIC_SITE_URL ?? 'https://expobrokgroup.com',
+  domain: 'expobrokgroup.uz',
+  url: process.env.NEXT_PUBLIC_SITE_URL ?? 'https://expobrokgroup.uz',
   email: 'info@expobrokgroup.com',
   phone: '+998 90 000 00 00',
   phoneHref: '+998900000000',
