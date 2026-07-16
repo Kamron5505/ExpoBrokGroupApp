@@ -62,7 +62,7 @@ export async function generateMetadata({
       },
     },
     verification: {
-      google: process.env.GOOGLE_SITE_VERIFICATION,
+      google: '4ts6vVAV1N2gG_p1MDADvC-_r4PcJxOG2n7gRQtlGaI',
       yandex: process.env.YANDEX_VERIFICATION,
     },
     openGraph: {
